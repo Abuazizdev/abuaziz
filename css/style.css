@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Montserrat',sans-serif;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.header-nav {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.header nav a {
+    margin: 0 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+}
+.hero-title h1  {
+    padding-top: 250px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.hero-title p {
+    padding: 50px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+#hero {
+    background: url("../img/фон 2.png") no-repeat center/cover;
+    min-height: 119vh;
+}
+.btn-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 40px;
+    background: #FF9900;
+    border-radius: 60px 0 0 60px;
+    font-weight: 600;
+    font-size: 18px;
+    color:#FFFFFF;
+}
+.btn-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 0 60px 60px 0;
+    background: transparent;
+}
+.hero button ion-icon  {
+    font-size: 30px;
+    margin-left: 15px;
+}
+.hero-btn {
+    display: flex;
+    align-items: center;
+}
+.card-title h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.card-title {
+    position: relative;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-title img {
+    margin-right: 150px;
+}
+.figure img {
+    position: absolute;
+    margin-left: -280px;
+    bottom: 30px;
+}
+#card {
+    background: url("../img/фон2 2.png") no-repeat center/cover;
+    min-height: 90vh;
+}
+
+.card {
+    padding-top: 100px;
+    width: 241px;
+    height: 267px;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(99, 99, 99, 0.58) 0%, rgba(99, 99, 99, 0.58) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+.card h1 {
+    padding: 20px 0;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.card p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.input-size {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-size p {
+    padding: 20px 10px;
+}
+.sign p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 7px;
+    margin: 0 30px;
+}
+.money {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 10px;
+}
+.money h3 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration-line: line-through;
+}
+.money button {
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 83px;
+    height: 25px;
+    background: #FF9900;
+    border-radius: 60px;
+}
+.card {
+    position: relative;
+    margin: 80px 0;
+}
+.card img {
+    position: absolute;
+    top: -82px;
+    left: 19px;
+    z-index: 99;
+}
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.block-title h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.block-title  {
+    position: relative;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.block-title img {
+    margin-right: 300px;
+}
+.figures img {
+    position: absolute;
+    margin-left: -390px;
+    bottom: 30px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.about-img {
+    padding: 80px 0;
+}
+#about {
+    background: url("../img/image 2.png") no-repeat top/cover;
+    min-height: 90vh;
+}
+.about {
+    display: flex;
+    align-items: center;
+}
+.about-title {
+    padding-left: 150px;
+}
+.about-title h1 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.about-title h2 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.about-title p {
+    padding: 100px 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+/*ABOUT*/
+
+
+.house h1 {
+    padding-top: 200px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #AEAEAE;
+}
+.house h2 {
+    margin-top: -30px;
+    margin-left: 150px;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration-line: underline;
+    color: #AEAEAE;
+}
+.food h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+.food-title p {
+    padding-left: 70px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.logo {
+    display: flex;
+    border-radius: 17px;
+    width: 35px;
+    height: 35px;
+    background: #FF9900;
+}
+.foo {
+    display: flex;
+    align-items: center;
+}
+#email {
+    padding: 90px 0;
+    min-height: 90vh;
+    background: url("../img/ресторан.png")no-repeat center/cover;
+}
+.input h1 {
+    position: absolute;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: -100px;
+}
+/*BTN*/
+#btn {
+    padding: 40px 0;
+    background: url("../img/image 2 (1)w-ld.png") no-repeat top/cover;
+}
+.btn-title h1 {
+    padding: 30px 0;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.btn-title p {
+    padding: 30px 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.btn-title button {
+    background: none;
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+    width: 270px;
+    height: 63px;
+    border: 1px solid #FF9900;
+    border-radius: 60px;
+}
+.btn-logo {
+    width: 500px;
+    height: 571px;
+    left: 752px;
+    top: 3656px;
+    background: radial-gradient(100% 100% at 0% 33.19%, rgba(126, 126, 126, 0.46) 0%, rgba(114, 112, 112, 0.46) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    backdrop-filter: blur(5px);
+    border-radius: 60px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn-img img{
+    margin-left: -50px;
+    margin-right: 10px;
+}
+.btn-img{
+    margin: 111px 89px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.btn-foto h1 {
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.btn-foto p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.foto2 {
+    padding: 10px 0;
+}
+.btn-foto img {
+    padding-left: 50px;
+}
+#logo {
+    min-height: 80vh;
+    background: url("../img/image 2 (1)w-ld.png") no-repeat center/cover;
+}
+.logo-img  {
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-inputs h1 {
+    padding: 30px 0;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FF9900;
+}
+.inputs p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #FF9900;
+}
+.input-left input {
+    padding-left: 30px;
+    margin: 10px 0;
+    border: 1px solid #FF9900;
+    width: 343px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #878787;
+    background: none;
+}
+.input-right {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.input-right input {
+    padding-left: 30px;
+    margin: 10px 10px;
+    width: 147px;
+    height: 47px;
+    border: 1px solid #FF9900;
+    background: none;
+    font-weight: 400;
+    font-size: 12px;
+    color: #878787;
+}
+.comment textarea {
+    padding-left: 30px;
+    padding-top: 30px;
+    background: none;
+    width: 343px;
+    height: 88px;
+    border: 1px solid #FF9900;
+}
+.email-btn {
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.email-btn button {
+    width: 250px;
+    height: 51px;
+    background: #FF9900;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+.btn-img2  {
+    padding-top: 15px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.home h1 {
+    margin: 0 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.home-icon h1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.home-icon2 p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+#footer {
+    background: url("../img/image 3.png") no-repeat top/cover;
+}
+.home-title h1 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.home-title a {
+    padding: 0 10px;
+    color: white;
+    font-size: 20px;
+}
+.home-title {
+    padding-left: 100px;
+    display: flex;
+}
+.home-img {
+    padding: 20px 0;
+}
